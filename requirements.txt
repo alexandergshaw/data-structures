@@ -1,0 +1,2 @@
+# Python testing dependency for the assignment Testing panel in Codespaces.
+pytest==8.2.2

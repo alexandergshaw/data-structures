@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fdfbf5;
+  --foreground: #3b352b;
+}
+
+html {
+  /* Default to the corporate sans everywhere; utilities can still override. */
+  font-family: var(--font-plex-sans), "Segoe UI", system-ui, -apple-system,
+    sans-serif;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  /* A faint warm glow at the top, like light falling on a page. */
+  background-image: radial-gradient(
+    1100px 520px at 50% -8%,
+    rgba(255, 252, 244, 0.7),
+    rgba(255, 252, 244, 0) 62%
+  );
+  background-repeat: no-repeat;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Very subtle paper grain, sitting beneath all content. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Selection in the accent ink, lightly. */
+::selection {
+  background-color: rgba(85, 100, 138, 0.18);
+}
+
+/* Inline code reads like a margin note. */
+code {
+  font-family: theme("fontFamily.mono");
+  font-size: 0.85em;
+  color: theme("colors.ink.strong");
+  background-color: theme("colors.paper.sunken");
+  border: 1px solid theme("colors.paper.edge");
+  border-radius: 0.3rem;
+  padding: 0.05rem 0.32rem;
+}

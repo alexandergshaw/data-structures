@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-06-17T22:50:38+00:00",
+  "units": {
+    "assignment0": {
+      "passed": false,
+      "tests": 2,
+      "failures": 2,
+      "errors": 0
+    },
+    "assignment1": {
+      "passed": false,
+      "tests": 6,
+      "failures": 6,
+      "errors": 0
+    },
+    "assignment2": {
+      "passed": false,
+      "tests": 6,
+      "failures": 6,
+      "errors": 0
+    },
+    "assignment3": {
+      "passed": false,
+      "tests": 3,
+      "failures": 3,
+      "errors": 0
+    },
+    "assignment4": {
+      "passed": false,
+      "tests": 3,
+      "failures": 3,
+      "errors": 0
+    },
+    "assignment5": {
+      "passed": false,
+      "tests": 5,
+      "failures": 5,
+      "errors": 0
+    },
+    "assignment6": {
+      "passed": false,
+      "tests": 2,
+      "failures": 2,
+      "errors": 0
+    },
+    "assignment7": {
+      "passed": false,
+      "tests": 3,
+      "failures": 3,
+      "errors": 0
+    },
+    "assignment8": {
+      "passed": false,
+      "tests": 4,
+      "failures": 4,
+      "errors": 0
+    },
+    "exam1": {
+      "passed": false,
+      "tests": 4,
+      "failures": 4,
+      "errors": 0
+    },
+    "exam2": {
+      "passed": false,
+      "tests": 4,
+      "failures": 4,
+      "errors": 0
+    },
+    "exam3": {
+      "passed": false,
+      "tests": 3,
+      "failures": 3,
+      "errors": 0
+    },
+    "review1": {
+      "passed": false,
+      "tests": 4,
+      "failures": 4,
+      "errors": 0
+    },
+    "review2": {
+      "passed": false,
+      "tests": 3,
+      "failures": 3,
+      "errors": 0
+    },
+    "review3": {
+      "passed": false,
+      "tests": 3,
+      "failures": 3,
+      "errors": 0
+    }
+  }
+}
